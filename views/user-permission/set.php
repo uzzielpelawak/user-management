@@ -8,7 +8,7 @@
 use webvimark\modules\UserManagement\components\GhostHtml;
 use webvimark\modules\UserManagement\models\rbacDB\Role;
 use webvimark\modules\UserManagement\UserManagementModule;
-use yii\bootstrap\BootstrapPluginAsset;
+use yii\bootstrap4\BootstrapPluginAsset;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 
@@ -29,13 +29,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="row">
 	<div class="col-sm-4">
-		<div class="panel panel-default">
-			<div class="panel-heading">
+		<div class="card">
+			<div class="card-header">
 				<strong>
 					<span class="glyphicon glyphicon-th"></span> <?= UserManagementModule::t('back', 'Roles') ?>
 				</strong>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 
 				<?= Html::beginForm(['set-roles', 'id'=>$user->id]) ?>
 
@@ -83,13 +83,13 @@ $this->params['breadcrumbs'][] = $this->title;
 	</div>
 
 	<div class="col-sm-8">
-		<div class="panel panel-default">
-			<div class="panel-heading">
+		<div class="card">
+			<div class="card-header">
 				<strong>
 					<span class="glyphicon glyphicon-th"></span> <?= UserManagementModule::t('back', 'Permissions') ?>
 				</strong>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 
 				<div class="row">
 					<?php foreach ($permissionsByGroup as $groupName => $permissions): ?>

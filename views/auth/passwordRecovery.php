@@ -1,7 +1,7 @@
 <?php
 
 use webvimark\modules\UserManagement\UserManagementModule;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap4\ActiveForm;
 use yii\captcha\Captcha;
 use yii\helpers\Html;
 
@@ -15,9 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 
 <div class="password-recovery">
-
-	<h2 class="text-center"><?= $this->title ?></h2>
-
+	
 	<?php if ( Yii::$app->session->hasFlash('error') ): ?>
 		<div class="alert-alert-warning text-center">
 			<?= Yii::$app->session->getFlash('error') ?>

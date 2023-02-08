@@ -16,8 +16,8 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="user-visit-log-view">
 
 
-	<div class="panel panel-default">
-		<div class="panel-body">
+	<div class="card">
+		<div class="card-body">
 
 			<?= DetailView::widget([
 				'model' => $model,

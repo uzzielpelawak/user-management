@@ -2,7 +2,7 @@
 
 use webvimark\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap4\ActiveForm;
 
 /**
  * @var yii\web\View $this

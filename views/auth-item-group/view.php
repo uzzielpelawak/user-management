@@ -15,11 +15,8 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="auth-item-group-view">
 
-	<h2 class="lte-hide-title"><?= $this->title ?></h2>
-
-	<div class="panel panel-default">
-		<div class="panel-body">
-
+	<div class="card">
+		<div class="card-body">
 			<p>
 				<?= Html::a(UserManagementModule::t('back', 'Edit'), ['update', 'id' => $model->code], ['class' => 'btn btn-sm btn-primary']) ?>
 				<?= Html::a(UserManagementModule::t('back', 'Create'), ['create'], ['class' => 'btn btn-sm btn-success']) ?>

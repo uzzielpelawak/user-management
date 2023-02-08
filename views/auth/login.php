@@ -6,18 +6,18 @@
 
 use webvimark\modules\UserManagement\components\GhostHtml;
 use webvimark\modules\UserManagement\UserManagementModule;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap4\ActiveForm;
 use yii\helpers\Html;
 ?>
 
 <div class="container" id="login-wrapper">
-	<div class="row">
-		<div class="col-md-4 col-md-offset-4">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h3 class="panel-title"><?= UserManagementModule::t('front', 'Authorization') ?></h3>
+	<div class="row justify-content-md-center">
+		<div class="col col-md-4 col-md-offset-4">
+			<div class="card panel">
+				<div class="card-header">
+					<h3 class="panel-title"><?= Yii::$app->params['panelTitle'] ?? UserManagementModule::t('front', 'Authorization') ?></h3>
 				</div>
-				<div class="panel-body">
+				<div class="card-body">
 
 					<?php $form = ActiveForm::begin([
 						'id'      => 'login-form',
@@ -55,10 +55,6 @@ use yii\helpers\Html;
 							) ?>
 						</div>
 					</div>
-
-
-
-
 					<?php ActiveForm::end() ?>
 				</div>
 			</div>

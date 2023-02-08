@@ -1,7 +1,7 @@
 <?php
 
 use webvimark\modules\UserManagement\UserManagementModule;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap4\ActiveForm;
 use yii\captcha\Captcha;
 use yii\helpers\Html;
 

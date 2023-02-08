@@ -12,10 +12,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 
-<h2 class="lte-hide-title"><?= $this->title ?></h2>
-
-<div class="panel panel-default">
-	<div class="panel-body">
+<div class="card">
+	<div class="card-body">
 		<?= $this->render('_form', [
 			'model'=>$model,
 		]) ?>

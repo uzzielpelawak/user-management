@@ -21,7 +21,6 @@ $this->params['breadcrumbs'][] = ['label' => UserManagementModule::t('back', 'Ro
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
-<h2 class="lte-hide-title"><?= $this->title ?></h2>
 
 <?php if ( Yii::$app->session->hasFlash('success') ): ?>
 	<div class="alert alert-success text-center">
@@ -36,13 +35,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="row">
 	<div class="col-sm-4">
-		<div class="panel panel-default">
-			<div class="panel-heading">
+		<div class="card">
+			<div class="card-header">
 				<strong>
 					<span class="glyphicon glyphicon-th"></span> <?= UserManagementModule::t('back', 'Child roles') ?>
 				</strong>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 				<?= Html::beginForm(['set-child-roles', 'id'=>$role->name]) ?>
 
 				<?php foreach ($allRoles as $aRole): ?>
@@ -73,13 +72,13 @@ $this->params['breadcrumbs'][] = $this->title;
 	</div>
 
 	<div class="col-sm-8">
-		<div class="panel panel-default">
-			<div class="panel-heading">
+		<div class="card">
+			<div class="card-header">
 				<strong>
 					<span class="glyphicon glyphicon-th"></span> <?= UserManagementModule::t('back', 'Permissions') ?>
 				</strong>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 				<?= Html::beginForm(['set-child-permissions', 'id'=>$role->name]) ?>
 
 				<div class="row">
