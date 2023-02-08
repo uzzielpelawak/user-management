@@ -1,18 +1,18 @@
 {
-	"name": "webvimark/module-user-management",
-	"description": "User with improved RBAC",
+	"name": "uzzielpelawak/module-user-management",
+	"description": "webvimark module, and some modifications",
 	"autoload": {
 		"psr-4": {
-			"webvimark\\modules\\UserManagement\\": ""
+			"uzzielpelawak\\modules\\UserManagement\\": ""
 		}
 	},
 	"require": {
-		"webvimark/components": "^1.0.0",
-		"webvimark/bootstrap-switch": "^1.0.0",
+		"uzzielpelawak/components": "^1.0.0",
+		"uzzielpelawak/bootstrap-switch": "^1.0.0",
 		"ikimea/browser": "1.12.0",
-		"webvimark/date-range-picker": "^1.0.0",
-		"webvimark/helpers": "^1.0.0",
-		"webvimark/grid-bulk-actions": "^1.0.0",
-		"webvimark/grid-page-size": "^1.0.0"
+		"uzzielpelawak/date-range-picker": "^1.0.0",
+		"uzzielpelawak/helpers": "^1.0.0",
+		"uzzielpelawak/grid-bulk-actions": "^1.0.0",
+		"uzzielpelawak/grid-page-size": "^1.0.0"
 	}
 }
