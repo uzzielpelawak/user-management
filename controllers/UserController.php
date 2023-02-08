@@ -2,7 +2,7 @@
 
 namespace uzzielpelawak\modules\UserManagement\controllers;
 
-use uzzielpelawak\components\AdminDefaultController;
+use webvimark\components\AdminDefaultController;
 use Yii;
 use uzzielpelawak\modules\UserManagement\models\User;
 use uzzielpelawak\modules\UserManagement\models\search\UserSearch;

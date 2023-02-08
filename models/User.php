@@ -2,8 +2,8 @@
 
 namespace uzzielpelawak\modules\UserManagement\models;
 
-use uzzielpelawak\helpers\LittleBigHelper;
-use uzzielpelawak\helpers\Singleton;
+use webvimark\helpers\LittleBigHelper;
+use webvimark\helpers\Singleton;
 use uzzielpelawak\modules\UserManagement\components\AuthHelper;
 use uzzielpelawak\modules\UserManagement\components\UserIdentity;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\Role;

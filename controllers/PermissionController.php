@@ -8,7 +8,7 @@ use uzzielpelawak\modules\UserManagement\models\rbacDB\AbstractItem;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\Permission;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\Route;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\search\PermissionSearch;
-use uzzielpelawak\components\AdminDefaultController;
+use webvimark\components\AdminDefaultController;
 use uzzielpelawak\modules\UserManagement\UserManagementModule;
 use Yii;
 

@@ -6,7 +6,7 @@ use uzzielpelawak\modules\UserManagement\components\AuthHelper;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\Permission;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\Role;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\search\RoleSearch;
-use uzzielpelawak\components\AdminDefaultController;
+use webvimark\components\AdminDefaultController;
 use uzzielpelawak\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\rbac\DbManager;

@@ -5,7 +5,7 @@ namespace uzzielpelawak\modules\UserManagement\controllers;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\AuthItemGroup;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch;
 use Yii;
-use uzzielpelawak\components\AdminDefaultController;
+use webvimark\components\AdminDefaultController;
 
 /**
  * AuthItemGroupController implements the CRUD actions for AuthItemGroup model.

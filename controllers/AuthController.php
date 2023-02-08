@@ -2,7 +2,7 @@
 
 namespace uzzielpelawak\modules\UserManagement\controllers;
 
-use uzzielpelawak\components\BaseController;
+use webvimark\components\BaseController;
 use uzzielpelawak\modules\UserManagement\components\UserAuthEvent;
 use uzzielpelawak\modules\UserManagement\models\forms\ChangeOwnPasswordForm;
 use uzzielpelawak\modules\UserManagement\models\forms\ConfirmEmailForm;
