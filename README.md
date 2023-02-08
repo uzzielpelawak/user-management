@@ -1,7 +1,12 @@
 User management module for Yii 2
 =====
 
-`This repository is not actively maintained. If you want to add some changes, just fork it and safely use your fork.`
+`Original Repo : https://github.com/webvimark/user-management`
+
+Update
+-----
+* Compatible Admin LTE 3
+* Support PHP >= 8.0
 
 Perks
 ---
