@@ -33,7 +33,7 @@ composer require uzzielpelawak/module-user-management
 or add
 
 ```
-"uzzielpelawak/module-user-management": "^1"
+"uzzielpelawak/module-user-management": "^2"
 ```
 
 to the require section of your `composer.json` file.
