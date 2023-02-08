@@ -7,12 +7,12 @@
 		}
 	},
 	"require": {
-		"uzzielpelawak/components": "dev-master",
-		"uzzielpelawak/bootstrap-switch": "dev-master",
+		"uzzielpelawak/components": "^2.0.0",
+		"uzzielpelawak/bootstrap-switch": "^2.0.0",
 		"ikimea/browser": "1.12.0",
-		"uzzielpelawak/date-range-picker": "dev-master",
-		"uzzielpelawak/helpers": "dev-master",
-		"uzzielpelawak/grid-bulk-actions": "dev-master",
-		"uzzielpelawak/grid-page-size": "dev-master"
+		"uzzielpelawak/date-range-picker": "^2.0.0",
+		"uzzielpelawak/helpers": "^2.0.0",
+		"uzzielpelawak/grid-bulk-actions": "^2.0.0",
+		"uzzielpelawak/grid-page-size": "^2.0.0"
 	}
 }
