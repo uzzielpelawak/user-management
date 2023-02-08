@@ -1,15 +1,15 @@
 <?php
 
-namespace webvimark\modules\UserManagement\controllers;
+namespace uzzielpelawak\modules\UserManagement\controllers;
 
-use webvimark\components\BaseController;
-use webvimark\modules\UserManagement\components\UserAuthEvent;
-use webvimark\modules\UserManagement\models\forms\ChangeOwnPasswordForm;
-use webvimark\modules\UserManagement\models\forms\ConfirmEmailForm;
-use webvimark\modules\UserManagement\models\forms\LoginForm;
-use webvimark\modules\UserManagement\models\forms\PasswordRecoveryForm;
-use webvimark\modules\UserManagement\models\User;
-use webvimark\modules\UserManagement\UserManagementModule;
+use uzzielpelawak\components\BaseController;
+use uzzielpelawak\modules\UserManagement\components\UserAuthEvent;
+use uzzielpelawak\modules\UserManagement\models\forms\ChangeOwnPasswordForm;
+use uzzielpelawak\modules\UserManagement\models\forms\ConfirmEmailForm;
+use uzzielpelawak\modules\UserManagement\models\forms\LoginForm;
+use uzzielpelawak\modules\UserManagement\models\forms\PasswordRecoveryForm;
+use uzzielpelawak\modules\UserManagement\models\User;
+use uzzielpelawak\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\web\ForbiddenHttpException;
 use yii\web\NotFoundHttpException;

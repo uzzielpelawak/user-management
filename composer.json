@@ -1,6 +1,6 @@
 {
 	"name": "uzzielpelawak/module-user-management",
-	"description": "webvimark module, and some modifications",
+	"description": "uzzielpelawak module, and some modifications",
 	"autoload": {
 		"psr-4": {
 			"uzzielpelawak\\modules\\UserManagement\\": ""

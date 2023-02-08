@@ -1,5 +1,5 @@
 <?php
-namespace webvimark\modules\UserManagement\models\rbacDB\search;
+namespace uzzielpelawak\modules\UserManagement\models\rbacDB\search;
 
 class PermissionSearch extends AbstractItemSearch
 {

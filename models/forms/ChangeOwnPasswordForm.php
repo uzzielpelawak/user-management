@@ -1,8 +1,8 @@
 <?php
-namespace webvimark\modules\UserManagement\models\forms;
+namespace uzzielpelawak\modules\UserManagement\models\forms;
 
-use webvimark\modules\UserManagement\models\User;
-use webvimark\modules\UserManagement\UserManagementModule;
+use uzzielpelawak\modules\UserManagement\models\User;
+use uzzielpelawak\modules\UserManagement\UserManagementModule;
 use yii\base\Model;
 use Yii;
 

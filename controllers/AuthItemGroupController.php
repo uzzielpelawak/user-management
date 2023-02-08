@@ -1,11 +1,11 @@
 <?php
 
-namespace webvimark\modules\UserManagement\controllers;
+namespace uzzielpelawak\modules\UserManagement\controllers;
 
-use webvimark\modules\UserManagement\models\rbacDB\AuthItemGroup;
-use webvimark\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch;
+use uzzielpelawak\modules\UserManagement\models\rbacDB\AuthItemGroup;
+use uzzielpelawak\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch;
 use Yii;
-use webvimark\components\AdminDefaultController;
+use uzzielpelawak\components\AdminDefaultController;
 
 /**
  * AuthItemGroupController implements the CRUD actions for AuthItemGroup model.
@@ -15,12 +15,12 @@ class AuthItemGroupController extends AdminDefaultController
 	/**
 	 * @var AuthItemGroup
 	 */
-	public $modelClass = 'webvimark\modules\UserManagement\models\rbacDB\AuthItemGroup';
+	public $modelClass = 'uzzielpelawak\modules\UserManagement\models\rbacDB\AuthItemGroup';
 
 	/**
 	 * @var AuthItemGroupSearch
 	 */
-	public $modelSearchClass = 'webvimark\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch';
+	public $modelSearchClass = 'uzzielpelawak\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch';
 
 	/**
 	 * Define redirect page after update, create, delete, etc

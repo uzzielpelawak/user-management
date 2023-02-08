@@ -1,9 +1,9 @@
 <?php
 
-use webvimark\modules\UserManagement\models\rbacDB\AuthItemGroup;
-use webvimark\modules\UserManagement\models\rbacDB\Permission;
-use webvimark\modules\UserManagement\models\rbacDB\Role;
-use webvimark\modules\UserManagement\models\rbacDB\Route;
+use uzzielpelawak\modules\UserManagement\models\rbacDB\AuthItemGroup;
+use uzzielpelawak\modules\UserManagement\models\rbacDB\Permission;
+use uzzielpelawak\modules\UserManagement\models\rbacDB\Role;
+use uzzielpelawak\modules\UserManagement\models\rbacDB\Route;
 use yii\db\Migration;
 
 class m141207_001649_create_basic_user_permissions extends Migration

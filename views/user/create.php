@@ -1,11 +1,11 @@
 <?php
 
-use webvimark\modules\UserManagement\UserManagementModule;
+use uzzielpelawak\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\User $model
+ * @var uzzielpelawak\modules\UserManagement\models\User $model
  */
 
 $this->title = UserManagementModule::t('back', 'User creation');

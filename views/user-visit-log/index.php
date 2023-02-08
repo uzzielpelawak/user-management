@@ -1,16 +1,16 @@
 <?php
 
-use webvimark\extensions\DateRangePicker\DateRangePicker;
-use webvimark\modules\UserManagement\UserManagementModule;
+use uzzielpelawak\extensions\DateRangePicker\DateRangePicker;
+use uzzielpelawak\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 use yii\widgets\Pjax;
-use webvimark\extensions\GridPageSize\GridPageSize;
+use uzzielpelawak\extensions\GridPageSize\GridPageSize;
 use yii\grid\GridView;
 
 /**
  * @var yii\web\View $this
  * @var yii\data\ActiveDataProvider $dataProvider
- * @var webvimark\modules\UserManagement\models\search\UserVisitLogSearch $searchModel
+ * @var uzzielpelawak\modules\UserManagement\models\search\UserVisitLogSearch $searchModel
  */
 
 $this->title = UserManagementModule::t('back', 'Visit log');

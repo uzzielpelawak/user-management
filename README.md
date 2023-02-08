@@ -22,13 +22,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require webvimark/module-user-management
+composer require uzzielpelawak/module-user-management
 ```
 
 or add
 
 ```
-"webvimark/module-user-management": "^1"
+"uzzielpelawak/module-user-management": "^1"
 ```
 
 to the require section of your `composer.json` file.
@@ -42,18 +42,18 @@ Configuration
 
 'components'=>[
 	'user' => [
-		'class' => 'webvimark\modules\UserManagement\components\UserConfig',
+		'class' => 'uzzielpelawak\modules\UserManagement\components\UserConfig',
 
 		// Comment this if you don't want to record user logins
 		'on afterLogin' => function($event) {
-				\webvimark\modules\UserManagement\models\UserVisitLog::newVisitor($event->identity->id);
+				\uzzielpelawak\modules\UserManagement\models\UserVisitLog::newVisitor($event->identity->id);
 			}
 	],
 ],
 
 'modules'=>[
 	'user-management' => [
-		'class' => 'webvimark\modules\UserManagement\UserManagementModule',
+		'class' => 'uzzielpelawak\modules\UserManagement\UserManagementModule',
 
 		// 'enableRegistration' => true,
 
@@ -98,8 +98,8 @@ To see full list of options check *UserManagementModule* file
 
 'modules'=>[
 	'user-management' => [
-		'class' => 'webvimark\modules\UserManagement\UserManagementModule',
-	        'controllerNamespace'=>'vendor\webvimark\modules\UserManagement\controllers', // To prevent yii help from crashing
+		'class' => 'uzzielpelawak\modules\UserManagement\UserManagementModule',
+	        'controllerNamespace'=>'vendor\uzzielpelawak\modules\UserManagement\controllers', // To prevent yii help from crashing
 	],
 ],
 
@@ -109,7 +109,7 @@ To see full list of options check *UserManagementModule* file
 
 ```php
 
-./yii migrate --migrationPath=vendor/webvimark/module-user-management/migrations/
+./yii migrate --migrationPath=vendor/uzzielpelawak/module-user-management/migrations/
 
 ```
 
@@ -121,7 +121,7 @@ public function behaviors()
 {
 	return [
 		'ghost-access'=> [
-			'class' => 'webvimark\modules\UserManagement\components\GhostAccessControl',
+			'class' => 'uzzielpelawak\modules\UserManagement\components\GhostAccessControl',
 		],
 	];
 }
@@ -134,8 +134,8 @@ Where you can go
 ```php
 
 <?php
-use webvimark\modules\UserManagement\components\GhostMenu;
-use webvimark\modules\UserManagement\UserManagementModule;
+use uzzielpelawak\modules\UserManagement\components\GhostMenu;
+use uzzielpelawak\modules\UserManagement\UserManagementModule;
 
 echo GhostMenu::widget([
 	'encodeLabels'=>false,
@@ -233,7 +233,7 @@ Events can be handled via config file like following
 
 'modules'=>[
 	'user-management' => [
-		'class' => 'webvimark\modules\UserManagement\UserManagementModule',
+		'class' => 'uzzielpelawak\modules\UserManagement\UserManagementModule',
 		'on afterRegistration' => function(UserAuthEvent $event) {
 			// Here you can do your own stuff like assign roles, send emails and so on
 		},
