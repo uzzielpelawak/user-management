@@ -1,7 +1,7 @@
 <?php
 namespace uzzielpelawak\modules\UserManagement\models\forms;
 
-use webvimark\helpers\LittleBigHelper;
+use uzzielpelawak\helpers\LittleBigHelper;
 use uzzielpelawak\modules\UserManagement\models\User;
 use uzzielpelawak\modules\UserManagement\UserManagementModule;
 use yii\base\Model;

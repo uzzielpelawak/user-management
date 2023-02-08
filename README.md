@@ -1,7 +1,7 @@
 User management module for Yii 2
 =====
 
-`Original Repo : https://github.com/webvimark/user-management`
+`Original Repo : https://github.com/uzzielpelawak/user-management`
 
 Update
 -----

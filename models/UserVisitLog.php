@@ -3,7 +3,7 @@
 namespace uzzielpelawak\modules\UserManagement\models;
 
 use Ikimea\Browser\Browser;
-use webvimark\helpers\LittleBigHelper;
+use uzzielpelawak\helpers\LittleBigHelper;
 use uzzielpelawak\modules\UserManagement\UserManagementModule;
 use Yii;
 
@@ -22,7 +22,7 @@ use Yii;
  *
  * @property User $user
  */
-class UserVisitLog extends \webvimark\components\BaseActiveRecord
+class UserVisitLog extends \uzzielpelawak\components\BaseActiveRecord
 {
 	CONST SESSION_TOKEN = '__visitorToken';
 

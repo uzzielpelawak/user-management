@@ -71,7 +71,7 @@ $this->params['breadcrumbs'][] = $this->title;
 					['class' => 'yii\grid\SerialColumn', 'options'=>['style'=>'width:10px'] ],
 
 					[
-						'class'=>'webvimark\components\StatusColumn',
+						'class'=>'uzzielpelawak\components\StatusColumn',
 						'attribute'=>'superadmin',
 						'visible'=>Yii::$app->user->isSuperadmin,
 					],
@@ -89,7 +89,7 @@ $this->params['breadcrumbs'][] = $this->title;
 						'visible'=>User::hasPermission('viewUserEmail'),
 					],
 					[
-						'class'=>'webvimark\components\StatusColumn',
+						'class'=>'uzzielpelawak\components\StatusColumn',
 						'attribute'=>'email_confirmed',
 						'visible'=>User::hasPermission('viewUserEmail'),
 					],
@@ -136,7 +136,7 @@ $this->params['breadcrumbs'][] = $this->title;
 						],
 					],
 					[
-						'class'=>'webvimark\components\StatusColumn',
+						'class'=>'uzzielpelawak\components\StatusColumn',
 						'attribute'=>'status',
 						'optionsArray'=>[
 							[User::STATUS_ACTIVE, UserManagementModule::t('back', 'Active'), 'success'],

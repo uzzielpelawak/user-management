@@ -2,7 +2,7 @@
 
 namespace uzzielpelawak\modules\UserManagement\controllers;
 
-use webvimark\components\BaseController;
+use uzzielpelawak\components\BaseController;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\Permission;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\Role;
 use uzzielpelawak\modules\UserManagement\models\User;
