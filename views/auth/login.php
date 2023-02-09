@@ -15,7 +15,7 @@ use yii\helpers\Html;
 		<div class="col col-md-4 col-md-offset-4">
 			<div class="card panel">
 				<div class="card-header">
-					<h3 class="panel-title"><?= Yii::$app->params['panelTitle'] ?? UserManagementModule::t('front', 'Authorization') ?></h3>
+					<?= Yii::$app->params['panelTitle'] ?? UserManagementModule::t('front', 'Authorization') ?>
 				</div>
 				<div class="card-body">
 
