@@ -1,7 +1,7 @@
 <?php
 use app\assets\AppAsset;
 use uzzielpelawak\modules\UserManagement\UserManagementModule;
-use yii\bootstrap4\BootstrapAsset;
+use yii\bootstrap5\BootstrapAsset;
 use yii\helpers\Html;
 
 /* @var $this \yii\web\View */

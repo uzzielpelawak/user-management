@@ -2,7 +2,7 @@
 namespace uzzielpelawak\modules\UserManagement\components;
 
 use uzzielpelawak\modules\UserManagement\models\User;
-use yii\bootstrap4\Nav;
+use yii\bootstrap5\Nav;
 
 /**
  * Class GhostNav
