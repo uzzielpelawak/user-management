@@ -8,7 +8,7 @@
 use uzzielpelawak\modules\UserManagement\components\GhostHtml;
 use uzzielpelawak\modules\UserManagement\models\rbacDB\Role;
 use uzzielpelawak\modules\UserManagement\UserManagementModule;
-use yii\bootstrap4\BootstrapPluginAsset;
+use yii\bootstrap5\BootstrapPluginAsset;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 
