@@ -2,7 +2,7 @@
 
 use uzzielpelawak\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
-use yii\bootstrap4\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 
 /**
  * @var yii\web\View $this

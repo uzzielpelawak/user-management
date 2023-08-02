@@ -1,7 +1,7 @@
 <?php
 
 use uzzielpelawak\modules\UserManagement\UserManagementModule;
-use yii\bootstrap4\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use yii\helpers\Html;
 
 /**

@@ -3,7 +3,7 @@
 use uzzielpelawak\modules\UserManagement\models\User;
 use uzzielpelawak\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
-use yii\bootstrap4\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use uzzielpelawak\extensions\BootstrapSwitch\BootstrapSwitch;
 
 /**
